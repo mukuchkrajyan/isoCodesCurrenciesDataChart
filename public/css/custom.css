@@ -1,0 +1,117 @@
+.preview-images {
+    width: 137px;
+    height: auto;
+}
+
+.continue {
+    margin-top: 11px;
+}
+
+.isoCodes {
+    font-weight: bold;
+    font-style: italic;
+    border: 2px dashed;
+    word-wrap: break-word;
+}
+.isoCodesAndValues{
+    font-weight: bold;
+    font-style: italic;
+    border: 2px dashed;
+    word-wrap: break-word;
+}
+.checkIsoCode, .checkUncheckIsoCodes {
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+}
+
+.checkIsoCodeValue {
+    margin-left: 11px;
+    position: relative;
+    bottom: 4px;
+}
+.chartDownloadButtons{
+    margin-bottom: 11px;
+}
+.highcharts-button{
+    display: none;
+}
+th,td {
+    border: 1px solid #696969 !important;
+    padding: 6px !important;
+    font-size: 9.5px;
+}
+body{
+    background-color: #eee;
+}
+
+#errShow,#errCheckboxes {
+    display: none;
+    color: red;
+    font-family: cursive;
+    margin-bottom: 0;
+    margin-top: 11px;
+}
+.chartAndOther{
+    display: none;
+}
+#errCheckboxes{
+    margin-bottom: 6px;
+}
+
+#checkboxesContent{
+    display: inline-block;
+    width:50%;
+}
+
+#getResults{
+    display: inline-block;
+    width:50%;
+    float: right;
+    margin-top: 30%;
+}
+
+.check_uncheck_all {
+    font-weight: bold;
+    font-size: 19px;
+    font-style: italic;
+    position: relative;
+    left: 11px;
+    bottom: 6px;
+}
+#datatable{
+    margin-top: 11px;
+}
+.datesContent {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.date {
+    width: 123px;
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 28px;
+    color: black;
+}
+
+input::-webkit-clear-button {
+    /*display: none;*/
+    margin-right: 11px;
+    cursor: pointer;
+    font-size: 15px !important;
+}
+
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.date::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    color: black;
+    opacity: 1;
+}
+
